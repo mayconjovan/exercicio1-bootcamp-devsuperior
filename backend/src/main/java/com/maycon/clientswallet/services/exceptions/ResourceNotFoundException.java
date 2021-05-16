@@ -1,4 +1,4 @@
-package com.maycon.clientswallet.service.exceptions;
+package com.maycon.clientswallet.services.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

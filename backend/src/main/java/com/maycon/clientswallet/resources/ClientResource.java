@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.maycon.clientswallet.dto.ClientDTO;
-import com.maycon.clientswallet.service.ClientService;
+import com.maycon.clientswallet.services.ClientService;
 
 @RestController
 @RequestMapping(value = "/clients")

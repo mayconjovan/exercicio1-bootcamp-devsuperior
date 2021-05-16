@@ -2,7 +2,7 @@ package com.maycon.clientswallet.dto;
 
 import java.time.Instant;
 
-import com.maycon.clientswallet.entity.Client;
+import com.maycon.clientswallet.entities.Client;
 
 public class ClientDTO {
 	

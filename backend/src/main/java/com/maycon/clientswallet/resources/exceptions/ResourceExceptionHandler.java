@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.maycon.clientswallet.service.exceptions.DatabaseException;
-import com.maycon.clientswallet.service.exceptions.ResourceNotFoundException;
+import com.maycon.clientswallet.services.exceptions.DatabaseException;
+import com.maycon.clientswallet.services.exceptions.ResourceNotFoundException;
 
 
 

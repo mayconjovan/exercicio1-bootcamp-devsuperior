@@ -1,4 +1,4 @@
-package com.maycon.clientswallet.entity;
+package com.maycon.clientswallet.entities;
 
 import java.io.Serializable;
 import java.time.Instant;

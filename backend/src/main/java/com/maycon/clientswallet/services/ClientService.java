@@ -1,4 +1,4 @@
-package com.maycon.clientswallet.service;
+package com.maycon.clientswallet.services;
 
 import java.util.Optional;
 
@@ -13,10 +13,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.maycon.clientswallet.dto.ClientDTO;
-import com.maycon.clientswallet.entity.Client;
-import com.maycon.clientswallet.repository.ClientReposiroty;
-import com.maycon.clientswallet.service.exceptions.DatabaseException;
-import com.maycon.clientswallet.service.exceptions.ResourceNotFoundException;
+import com.maycon.clientswallet.entities.Client;
+import com.maycon.clientswallet.repositories.ClientReposiroty;
+import com.maycon.clientswallet.services.exceptions.DatabaseException;
+import com.maycon.clientswallet.services.exceptions.ResourceNotFoundException;
 
 
 @Service
